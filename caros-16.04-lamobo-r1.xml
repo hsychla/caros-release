@@ -36,6 +36,8 @@
 
 	<local_conf>
 		<![CDATA[
+BUILDCFG_VARS_append = " BUILD_ID"
+
 MACHINE = "sun7i-a20-lamobo-r1"
 DISTRO = "caros"
 DL_DIR = "/REDO/download"

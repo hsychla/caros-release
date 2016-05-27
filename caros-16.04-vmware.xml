@@ -36,6 +36,8 @@
 
 	<local_conf>
 		<![CDATA[
+BUILDCFG_VARS_append = " BUILD_ID"
+
 MACHINE = "vmware"
 DISTRO = "caros"
 DL_DIR = "/REDO/download"
